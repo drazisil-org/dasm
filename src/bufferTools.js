@@ -49,6 +49,7 @@ export class ExtendedBuffer {
    * @returns {Buffer}
    */
   get rawBuffer() {
+    console.log(this.#buffer);
     return this.#buffer;
   }
 
