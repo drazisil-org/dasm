@@ -41,6 +41,7 @@ export class ExtendedBuffer {
   shiftBuffer(count) {
     const result = shiftBuffer(Buffer.from(this.#buffer), count);
     this.#buffer = result.remainder;
+    console.log(result);
     return result;
   }
 
@@ -49,6 +50,7 @@ export class ExtendedBuffer {
    * @returns {Buffer}
    */
   get rawBuffer() {
+    console.log(this.#buffer);
     return this.#buffer;
   }
 
