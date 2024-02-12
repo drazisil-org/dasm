@@ -32,7 +32,7 @@ export class ExtendedBuffer {
   }
 
   hello() {
-    console.log("I'm not tested!);
+    console.log("I'm not tested!");
   }
 
   /**
