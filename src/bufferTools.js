@@ -31,6 +31,10 @@ export class ExtendedBuffer {
     this.#buffer = inputBuffer;
   }
 
+  hello() {
+    console.log("I'm not tested!);
+  }
+
   /**
    * Remove count from self removed part, return value
    * value of the property buffer is set to remainder
